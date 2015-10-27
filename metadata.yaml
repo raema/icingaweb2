@@ -1,0 +1,10 @@
+name: icingaweb2
+summary: Icinga2 open source enterprise monitoring system and web interface
+maintainer: Matt Rae <matt.rae@canonical.com>
+description: |
+  Deploys icinga2 from ppa:formorer/icinga and icingaweb2 from https://github.com/Icinga/icingaweb2/archive/master.zip
+tags:
+  - monitoring
+requires:
+  database:
+    interface: mysql

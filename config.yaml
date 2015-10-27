@@ -1,0 +1,5 @@
+options:
+  admin_password:
+    type: string
+    default: 'password'
+    description: password for icingaadmin user
